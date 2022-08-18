@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "123456789",
+    "database": "sat_piura",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "operatorsAliases": false,
+    "logging": false,
+    
+    "dialectOptions": {
+      "multipleStatements": true,
+      "options": { "requestTimeout": 1500000 }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "sidmovil",
+    "password": "S4tpM0v1l",
+    "database": "GESTIONCOBRANZA",
+    "host": "172.20.30.129",
+    "dialect": "mssql",
+    "operatorsAliases": false,
+    "logging": false,
+    
+    "dialectOptions": {
+      "options": { "requestTimeout": 1500000 }
+    }
+  }
+}
